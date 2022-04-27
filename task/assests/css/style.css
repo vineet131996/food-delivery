@@ -1,0 +1,658 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'aachenn';
+}
+img{
+  width: 100%;
+}
+
+
+.navbar-expand-lg .navbar-nav{
+  width: 32%;
+}
+@font-face {
+	font-family: 'aachenn';
+	src: url("../font/aachenn.ttf");
+	font-style: normal;
+	font-weight: extrabold;
+}
+
+nav.navbar.navbar-expand-lg.fixedHeader .nav-item .nav-link:hover{
+color: white;
+transition: all 0.5s;
+}
+button:focus {
+ 
+  border: none;
+  outline: none;
+}
+button.navbar-toggler{
+  padding: 0px;
+}
+.navbar{
+  padding: 2rem 1rem;
+}
+.fixedHeader {
+  position: fixed!important;
+  padding: 5px 30px;
+  animation-name: animationFade;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 8px -1px rgba(0, 0, 0, .2);
+  z-index: 999;
+  width: 100%;
+  background: #fe8f00;
+}
+.fixedHeader nav.navbar {
+  padding: 0px 38px;
+}
+@-webkit-keyframes animationFade {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+  }
+  to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+  }
+}
+.nav-item .nav-link{
+font-size: 16px;
+color: white;
+text-transform: uppercase;
+font-weight: 500;
+}
+a.navbar-brand.seprationbrand.d-none.d-lg-block {
+  padding: 0px 150px;
+}
+.nav-item .nav-link:hover,
+.footlink ul li a:hover{
+  color: #fe8f00;
+  transition: all 0.5s;
+}
+.socialmedialink ul li a:hover{
+  background-color: #fe8f00;
+  color: white;
+  transition: all 0.5s;
+}
+.navbar{
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+  
+}
+.bannerbtn a:hover{
+  color: #fe8f00;
+  background-color: white;
+  transition: all 0.5s;
+}
+.banner-bg {
+  background-image: url(../images/bannerbg.jpg);
+  min-height: 850px;
+  background-size: cover;
+  
+  position: relative;
+  overflow: hidden;
+  padding: 250px 0px;
+  
+     
+}
+/* .bannerbg-inner{
+  min-height: 850px;
+  position: relative;
+} */
+.bannertxt h3,
+.bannertxt p,
+.bannerbtn a,
+.abouttxt h3,
+.abouttxt p,
+.menutxt h3,
+.menutxt p,
+.menutxt h4
+{
+  text-transform: capitalize;
+}
+
+.bannertxt h3{
+  font-size: 66px;
+  color: #fe8f00;
+  line-height: 1;
+}
+.bannertxt p{
+  color: white;
+  font-size: 25px;
+  padding: 15px 0px;
+
+}
+
+.bannerbtn a{
+  font-size: 25px;
+  color: #4c4a4a;
+  padding: 10px 30px;
+  background-color: #fe8f00;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.aboutusright .bannertxt,
+.aboutusright .abouttxt,
+.banner-bg .bannertxt{
+
+  padding: 50px 0px;
+}
+.bannertxt,
+.abouttxt {
+  max-width: 580px;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-bg::after {
+  position: absolute;
+  background: rgba(51,51,56,0.95);
+  width: 100%;
+  height: 100%;
+  content: " ";
+  top: 0px;
+  left: 0px;
+}
+li.nav-item {
+  margin: 0px 30px;
+}
+.banner-left,
+.banner-right,
+.aboutusleft{
+  z-index: 1;
+  position: relative;
+}
+.sperationtwo{
+  padding-bottom: 120px;
+}
+.sperationdown{
+  padding-top: 120px;
+}
+
+.abouttxt h3{
+  font-size: 50px;
+  color: white;
+  padding-bottom: 50px;
+}
+.abouttxt p{
+  font-size: 33px;
+  color: white;
+  line-height: 1.3;
+}
+.bg-back{
+  background-color: #1d1d23;
+}
+
+.foodquality{
+  
+  min-height: 100vw;
+  
+  position: relative;
+
+}
+.foodquality .aboutusright{
+  padding-top:400px;
+}
+.coffebrad,
+.fruits,
+.plateright{
+  position: absolute;
+}
+
+.plateright{
+  width: 30%;
+}
+.plateright {
+  right: 0px;
+top: -50px;
+}
+.fruits{
+  width: 35%;
+}
+.fruits {
+  bottom: 40px;
+}
+.coffebrad{
+  width: 50%;
+}
+
+
+.coffebrad {
+  left: 50%;
+  top: 48%;
+}
+
+
+.gallery {
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery a{
+  width: 32%;
+  margin-bottom: 15px;
+}
+
+.enjoyfood{
+  background-image: url(../images/enjoyfood.jpg);
+  min-height: 975px;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0px;
+  
+}
+
+.enjoyfood .abouttxt{
+  border: 5px solid #fe8f00;
+  padding: 70px;
+}
+
+.menutxt h3{
+  font-size: 29px;
+  font-weight: 500;
+  color: #fe8f00;
+  padding: 10px 0px;
+}
+.menutxt p{
+  font-size: 16px;
+  color: white;
+
+}
+.menutxt h4{
+  font-size: 25px;
+  color: #fe8f00;
+  padding: 10px 0px;
+}
+
+.enjoymeal{
+  background-color: #fe8f00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  
+}
+.enjoymeal .enjoyimg, 
+.enjoymeal .aboutusright{
+ width: 49%;
+}
+/* .enjoyimg img{
+  width:48%
+} */
+
+.footerlog.text-center img {
+  width: 300px;
+}
+
+.footlink ul li a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  margin: 0px 15px;
+}
+
+.socialmedialink ul li a {
+  background-color: white;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 13px;
+    color: black;
+    display: inline-block;
+}
+.footlink {
+  padding: 10px 0px;
+}
+.navbar-brand{
+margin-right: 0px;
+}
+.navbar-toggler-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+    background: #fe9000;
+    height: 26px;
+    width: 30px;
+    border-radius: 3px;
+    color: #ffffff;
+    border: 1px solid #b55a5a;
+}
+.enjoyfood .abouttxt {
+  max-width: 100%;
+}
+
+
+@media only screen and (min-width: 1601px) {
+.enjoyimg img {
+  width: 82%;
+}
+}
+@media only screen and (max-width: 1350px) {
+  li.nav-item {
+    margin: 0px 15px;}
+}
+.foodquality .aboutusright{
+  padding: 0px 0px;
+  position: absolute;
+    height: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 1199px) {
+  .menutxt h3,
+  .bannertxt p,
+  .abouttxt p,
+  .bannerbtn a{
+    font-size: 22px;
+  }
+  
+  a.navbar-brand.seprationbrand.d-none.d-lg-block {
+    padding: 0px 100px;
+}
+.nav-item .nav-link {
+  font-size: 14px;
+}
+  .abouttxt h3{
+    padding-bottom: 20px;
+  }
+  .abouttxt h3,
+  .bannertxt h3 {
+    font-size: 35px;
+  }
+  .menutxt p {
+    font-size: 11px;
+  }
+  .menutxt h4 {
+    font-size: 15px;
+  }
+  .sperationtwo {
+    padding-bottom: 80px;
+}
+.sperationdown{
+  padding-top: 80px;
+}
+.enjoyfood{
+  min-height: 700px;
+  padding: 203px 0px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.menutxt h3,
+.bannertxt p,
+.abouttxt p,
+.bannerbtn a{
+ 
+  font-size: 15px;
+}
+
+
+.banner-bg{
+  padding: 130px 0px;
+}
+.navbar-expand-lg .navbar-nav{
+  width: 100%;
+}
+.navbar {
+  background: #ff9100;
+}
+.navbar-collapse li.nav-item:hover{
+  background-color: #ffffff;
+  transition: all 0.5s;
+  color: white!important;
+}
+
+.navbar-collapse li.nav-item .nav-link{
+  padding-left: 10px;
+}
+li.nav-item{
+  margin: 0px 0px;
+}
+.enjoyfood {
+  min-height: 520px;
+  padding: 130px 0px;
+}
+.footlink ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin: 0px 10px;
+}
+.banner-left img,
+.aboutusleft img {
+  width: 60%;
+
+}
+.banner-left,
+.aboutusleft{
+  text-align: center;
+}
+.bannertxt, .abouttxt {
+  max-width: 580px;
+  
+  margin: auto;
+  text-align: center;
+}
+.abouttxt h3{
+  padding-bottom: 15px;
+}
+.abouttxt h3,
+.bannertxt h3 {
+  font-size: 30px;
+}
+.menutxt h4 {
+  font-size: 13px;
+}
+.enjoymeal {
+  flex-direction: column;
+  min-height: auto;
+  height: auto;
+  justify-content: center;
+  padding-top: 40px;
+}
+.navbar {
+  padding: 0.5rem 1rem;
+}
+.foodquality .aboutusright .abouttxt {
+  max-width: 358px;
+  text-align: left;
+}
+.banner-bg{
+  min-height: 680px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.menutxt h3,
+.abouttxt p {
+  font-size: 10px;
+  padding: 5px 0px;
+}
+
+.sperationdown{
+  padding-top: 15px;
+}
+  
+.nav-item .nav-link {
+  font-size: 12px;
+}
+a.navbar-brand.d-lg-none img
+ {
+  width: 65px;
+}
+.footerlog.text-center img {
+  width: 150px;
+}
+.banner-bg {
+  min-height: 330px;
+  
+  padding: 120px 0px 30px 0px;
+}
+.enjoyfood .abouttxt {
+  border: 5px solid #fe8f00;
+  padding: 10px 10px;
+}
+.enjoyfood {
+  min-height: 270px;
+  padding: 80px 0px;
+}
+.sperationtwo,
+.sperationdown {
+  padding-bottom: 40px;
+}
+.footlink ul li {
+  width: 130px;
+  text-align: center;
+  line-height: 1;
+}
+.footlink ul li a{
+  font-size: 10px;
+}
+
+.gallery {
+
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  
+}
+.abouttxt h3{
+  padding-bottom: 15px;
+}
+.bannerbtn a{
+  font-size: 10px;
+  padding: 5px 10px;
+}
+.bannertxt p{
+  font-size: 12px;
+  padding: 10px 0px;
+}
+.abouttxt h3,
+.bannertxt h3 {
+  font-size: 25px;
+}
+
+.menutxt p {
+  font-size: 9px;
+}
+.menutxt h4 {
+  font-size: 12px;
+}
+}
+@media only screen and (max-width: 575px) {
+.menucover {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.enjoymeal{
+  padding-top: 0px;
+}
+.menutxt,
+.enjoymeal .aboutusright .abouttxt {
+  text-align: center;
+}
+/* .gallery {
+  grid-gap: 20px;
+} */
+.gallery a {
+  text-align: center;
+  margin: auto;
+}
+.fruits {
+  bottom: 20px;
+}
+.plateright {
+
+  top: -15px;
+}
+.nav-link{
+  padding: 5px 0px;
+}
+.nav-item .nav-link {
+  font-size: 10px;
+}
+.banner-bg .bannertxt {
+  padding: 28px 0px;
+}
+.bannertxt {
+  padding: 150px 0px; 
+}
+.aboutusright .abouttxt{
+  padding: 0px 0px;
+}
+.enjoymeal{
+  justify-content: center;
+  min-height: 400px;
+}
+.banner-bg {
+  min-height: 350px;
+  padding-top: 125px;
+}
+.enjoyfood {
+  min-height: 170px;
+  padding: 30px 0px;
+}
+.enjoyfood .abouttxt {
+  max-width: 400px;
+}
+.sperationtwo {
+  padding-bottom: 30px;
+}
+.sperationdown{
+  padding-top:30px ;
+}
+.socialmedialink ul li a {
+  
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+ 
+}
+.footlink {
+  padding: 2px 0px;
+}
+
+.bannertxt p{
+  font-size: 10px;
+  padding: 5px 0px;
+}
+.abouttxt h3,
+.bannertxt h3 {
+  font-size: 15px;
+}
+.menutxt h4 {
+  font-size: 11px;
+}
+.enjoymeal .abouttxt h3{
+  padding-bottom: 5px;
+}
+}
+@media only screen and (max-width: 440px) {
+  .enjoymeal{
+    min-height: auto;
+    height: auto;
+}
+}
+@media only screen and (max-width: 380px) {
+.gallery a{
+  width: 48%;
+}
+}
